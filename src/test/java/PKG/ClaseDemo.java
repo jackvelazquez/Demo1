@@ -5,9 +5,10 @@ import org.testng.Reporter;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
+
 public class ClaseDemo {
 
-    @Test (priority=2, groups = "sanity")
+    @Test(priority=2, groups = "sanity")
     public void prueba1()
     {
         System.out.println("Prueba 1");

@@ -1,20 +1,14 @@
 package PKG;
 
 import org.testng.Assert;
-import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 public class SeleniumTest {
 
-    //TESPLAN
-
-    @Test (priority=2, groups="sanity")
-    public void  RegressionTest1()
+    @Test(priority=2, groups = "sanity")
+    public void prueba1()
     {
-        System.out.println("Regression Test 1 - priority 2");
+        System.out.println("Prueba 1");
         Assert.assertTrue(true);
     }
-
-
 }
-
