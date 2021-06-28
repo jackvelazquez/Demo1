@@ -1,0 +1,13 @@
+<suite name="Test Automation Suite 1 ">
+    <test name="TestCase1XML">
+        <groups>
+            <run>
+                <include name="sanity"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="PKG.ClaseDemo"/>
+        </classes>
+
+    </test>
+</suite>

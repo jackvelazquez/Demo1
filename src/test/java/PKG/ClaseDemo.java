@@ -7,21 +7,21 @@ import org.testng.asserts.SoftAssert;
 
 public class ClaseDemo {
 
-    @Test (priority=2)
+    @Test (priority=2, groups = "sanity")
     public void prueba1()
     {
         System.out.println("Prueba 1");
         Assert.assertTrue(true);
     }
 
-    @Test (priority=1)
+    @Test (priority=1, groups = "sanity")
     public void prueba2()
     {
         System.out.println("Prueba 2");
         Assert.assertTrue(true);
     }
 
-    @Test (priority=1)
+    @Test (priority=1, groups = "sanity")
     public void prueba3()
     {
         System.out.println("Prueba 3");
@@ -31,7 +31,7 @@ public class ClaseDemo {
         // Assert.assertTrue(true);
     }
 
-    @Test (priority=4)
+    @Test (priority=4, groups = "sanity")
     public void prueba4()
     {
         SoftAssert saPrueba = new SoftAssert();
